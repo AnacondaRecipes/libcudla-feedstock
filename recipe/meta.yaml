@@ -24,7 +24,7 @@ source:
 
 build:
   number: 0
-  skip: true  # [osx or not aarch64]
+  skip: true  # [osx or not (aarch64 or (win and arm64))]
 
 requirements:
   build:
